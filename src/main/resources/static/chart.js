@@ -30,7 +30,13 @@ function renderBellCurveChart(percentageData, countData, totalEmployees) {
     let ctx = document.getElementById("performanceChart").getContext("2d");
 
     let categories = ["E (Low Performers)", "D (Needs Improvement)", "C (Good)", "B (Very Good)", "A (Outstanding)"];
-    let percentages = [percentageData.E, percentageData.D, percentageData.C, percentageData.B, percentageData.A];
+    let percentages = [
+	    parseFloat(percentageData.E.toFixed(2)), 
+	    parseFloat(percentageData.D.toFixed(2)), 
+	    parseFloat(percentageData.C.toFixed(2)), 
+	    parseFloat(percentageData.B.toFixed(2)), 
+	    parseFloat(percentageData.A.toFixed(2))
+	];
     let counts = [countData.E, countData.D, countData.C, countData.B, countData.A];
 
     let chartData = percentages.map((value, index) => ({
