@@ -24,6 +24,7 @@ This project evaluates employee performance and assigns ratings using a bell cur
 - Spring Boot
 - MySQL Database
 - Maven
+- postman(Testing)
 
 ### Steps to Run Backend
 
