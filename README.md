@@ -1,4 +1,4 @@
-# Employee Performance Bell Curve
+![Screenshot 2025-03-11 154031](https://github.com/user-attachments/assets/c069a420-58b1-4db0-8f31-029becda90b2)# Employee Performance Bell Curve
 
 ## Overview
 
@@ -6,6 +6,7 @@ This project evaluates employee performance and assigns ratings using a bell cur
 
 ### Project UI
 
+![Screenshot 2025-03-11 154031](https://github.com/user-attachments/assets/e9e7becf-af39-42d6-ace1-4764ee221d5d)
 
 
 ## Features
